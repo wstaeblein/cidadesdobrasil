@@ -26,5 +26,9 @@ Os registros estão num array de UFs. Cada registro de UF contém a sigla, o nom
 }
 ```
 
-**Arquivo cidades-
-Um ou
+**Arquivo cidades-mongodb.json**
+
+Arquivo um pouco mais simplificado, contendo apenas a lista de cidades e coordenadas, separadas por UF e prontas para serem importadas numa collection do MongoDB. É basicamente copy/paste.
+
+
+Este projeto foi uma necessidade para um projeto pessoal meu. Não consegui encontrar uma lista completa com coordenadas exatas, então gerei esta de fontes diversas. Não há restrição de uso.
