@@ -1,6 +1,9 @@
 # Cidades do Brasil
 Lista completa de cidades do Brasil em formato JSON divididas por unidade federativa.
 
+
+**Arquivo cidades.json**
+
 Cada registro contém o nome da cidade e a latitude e longitude do centro.
 
 Os registros estão num array de UFs. Cada registro de UF contém a sigla, o nome e a um array com a lista de cidades
@@ -22,3 +25,6 @@ Os registros estão num array de UFs. Cada registro de UF contém a sigla, o nom
   ]
 }
 ```
+
+**Arquivo cidades-
+Um ou
