@@ -6,13 +6,14 @@ Lista completa de cidades do Brasil em formato JSON divididas por unidade federa
 
 Cada registro contém o nome da cidade e a latitude e longitude do centro.
 
-Os registros estão num array de UFs. Cada registro de UF contém a sigla, o nome e a um array com a lista de cidades
+Os registros estão num array de UFs. Cada registro de UF contém a sigla, o nome e um array com a lista de cidades.
 
 ```json
 {
 	"uf": "RR",
 	"nome": "Roraima",
-	"cidades": [{
+	"cidades": [
+		{
 			"nome": "Alto Alegre",
 			"lat": 2.98858,
 			"lon": -61.3072
@@ -22,7 +23,7 @@ Os registros estão num array de UFs. Cada registro de UF contém a sigla, o nom
 			"lat": 3.64571,
 			"lon": -61.3692
 		}
-  ]
+	]
 }
 ```
 
